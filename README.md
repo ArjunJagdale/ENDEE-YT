@@ -94,7 +94,7 @@ Videos are checked before ingestion using Endee's `get_vector()` method to preve
 ### Prerequisites
 - Docker and Docker Compose
 - Python 3.8+
-- OpenRouter API key (for embeddings and LLM. Store it in .env!)
+- OpenRouter API key (for embeddings and LLM)
 
 ### Installation
 
@@ -105,11 +105,29 @@ cd ENDEE-YT
 ```
 
 2. **Start Endee server**
+
+The project includes a `docker-compose.yml` that configures Endee with optimal settings:
+- Exposes port 8080 for API and dashboard
+- Persistent data storage via Docker volume
+- Automatic thread detection for performance
+- File descriptor limits for handling concurrent connections
+
 ```bash
 docker compose up -d
 ```
 
-Verify Endee is running at `http://localhost:8080`
+**Verify the server is running**
+```bash
+docker ps
+```
+
+Expected output:
+```
+CONTAINER ID   IMAGE                          STATUS         PORTS
+abc123def456   endeeio/endee-server:latest   Up 2 minutes   0.0.0.0:8080->8080/tcp
+```
+
+Access Endee dashboard at `http://localhost:8080` to confirm availability.
 
 3. **Install dependencies**
 ```bash
