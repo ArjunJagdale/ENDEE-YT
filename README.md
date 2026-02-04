@@ -2,6 +2,19 @@
 
 A Retrieval-Augmented Generation (RAG) system for querying YouTube video transcripts using Endee vector database for semantic search and OpenRouter LLM for answer generation.
 
+## Demo Screenshots
+Video used for demo - [Why You're Always Tired](https://youtu.be/3kAiPSEnrHI?si=vxGuR5D506X1uYma) by Bryan Johnson
+> #### Ingest Operation
+> 
+> <img width="1700" height="554" alt="image" src="https://github.com/user-attachments/assets/682007fd-c949-4015-9ca5-0657c182ec69" />
+>
+> #### Query the video
+>
+> <img width="1701" height="662" alt="image" src="https://github.com/user-attachments/assets/80eea32d-e787-4fe2-ba3c-2a0ae60b4332" />
+>
+> <img width="1697" height="711" alt="image" src="https://github.com/user-attachments/assets/fcd14350-b96e-4d57-b605-ed85eae37aa6" />
+
+
 ## Problem Statement
 
 YouTube videos contain valuable information, but finding specific content within long videos is time-consuming. This project enables semantic search across video transcripts, allowing users to ask questions and receive accurate answers with timestamp references to the exact moments in the video.
