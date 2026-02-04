@@ -6,13 +6,13 @@ A Retrieval-Augmented Generation (RAG) system for querying YouTube video transcr
 Video used for demo - [Why You're Always Tired](https://youtu.be/3kAiPSEnrHI?si=vxGuR5D506X1uYma) by Bryan Johnson
 > #### Ingest Operation
 > 
-> <img width="1700" height="554" alt="image" src="https://github.com/user-attachments/assets/682007fd-c949-4015-9ca5-0657c182ec69" />
+> <img width="1361" height="718" alt="image" src="https://github.com/user-attachments/assets/d71ce0f8-6434-43bb-b2bc-8b186969c000" />
 >
 > #### Query the video
 >
-> <img width="1701" height="662" alt="image" src="https://github.com/user-attachments/assets/80eea32d-e787-4fe2-ba3c-2a0ae60b4332" />
->
-> <img width="1697" height="711" alt="image" src="https://github.com/user-attachments/assets/fcd14350-b96e-4d57-b605-ed85eae37aa6" />
+><img width="1363" height="715" alt="image" src="https://github.com/user-attachments/assets/3381f569-99f8-46e5-9c08-df158bdb731b" />
+> 
+
 
 
 ## Problem Statement
