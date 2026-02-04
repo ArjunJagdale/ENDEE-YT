@@ -94,7 +94,7 @@ Videos are checked before ingestion using Endee's `get_vector()` method to preve
 ### Prerequisites
 - Docker and Docker Compose
 - Python 3.8+
-- OpenRouter API key (for embeddings and LLM)
+- OpenRouter API key (for embeddings and LLM. Store it in .env!)
 
 ### Installation
 
